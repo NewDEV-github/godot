@@ -51,6 +51,7 @@ jobs:
           platform: windows
           target: ${{ matrix.target }}
           tools: ${{ matrix.tools }}
+          disable_3d: yes
           scons-cache-limit: 3072
 
       - name: Upload artifact
