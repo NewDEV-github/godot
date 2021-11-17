@@ -48,6 +48,7 @@ jobs:
           platform: osx
           target: ${{ matrix.target }}
           tools: ${{ matrix.tools }}
+          disable_3d: yes
 
       - name: Upload artifact
         uses: ./.github/actions/upload-artifact
