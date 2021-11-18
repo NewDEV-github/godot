@@ -1,4 +1,3 @@
-disable_3d = "yes"
 deprecated = "no"
 module_arkit_enabled = "no"
 module_bullet_enabled = "no"
