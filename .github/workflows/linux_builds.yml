@@ -93,7 +93,6 @@ jobs:
           platform: linuxbsd
           target: ${{ matrix.target }}
           tools: ${{ matrix.tools }}
-          disable_3d: yes
 
       # Download and extract zip archive with project, folder is renamed to be able to easy change used project
       - name: Download test project
